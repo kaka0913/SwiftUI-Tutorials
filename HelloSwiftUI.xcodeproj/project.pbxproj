@@ -34,6 +34,7 @@
 		22A435B22BA0241C00F026DF /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A435B12BA0241C00F026DF /* LandmarkRow.swift */; };
 		22A435B42BA0284800F026DF /* turtlerock@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22A435B32BA0284800F026DF /* turtlerock@2x.jpg */; };
 		22A435B62BA02BF800F026DF /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A435B52BA02BF800F026DF /* LandmarkList.swift */; };
+		22A435B82BA0452300F026DF /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A435B72BA0452300F026DF /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		22A435B12BA0241C00F026DF /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		22A435B32BA0284800F026DF /* turtlerock@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "turtlerock@2x.jpg"; sourceTree = "<group>"; };
 		22A435B52BA02BF800F026DF /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		22A435B72BA0452300F026DF /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 				22A435AD2B9FFAA500F026DF /* ContentView.swift */,
 				22A435B12BA0241C00F026DF /* LandmarkRow.swift */,
 				22A435B52BA02BF800F026DF /* LandmarkList.swift */,
+				22A435B72BA0452300F026DF /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 				22A435AF2B9FFAA500F026DF /* CircleImage.swift in Sources */,
 				2216756B2B9DFED9000C0E9B /* HelloSwiftUIApp.swift in Sources */,
 				22A435B62BA02BF800F026DF /* LandmarkList.swift in Sources */,
+				22A435B82BA0452300F026DF /* LandmarkDetail.swift in Sources */,
 				22A435B02B9FFAA500F026DF /* ContentView.swift in Sources */,
 				22A435A92B9FFA8800F026DF /* Landmark.swift in Sources */,
 				22A435B22BA0241C00F026DF /* LandmarkRow.swift in Sources */,
