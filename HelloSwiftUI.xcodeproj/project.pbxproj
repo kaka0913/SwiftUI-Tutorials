@@ -27,6 +27,8 @@
 		22096E652BA4012F00FB20F2 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 22096E642BA4012F00FB20F2 /* hikeData.json */; };
 		22096E672BA4018500FB20F2 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22096E662BA4018500FB20F2 /* Hike.swift */; };
 		22096E6C2BA6774A00FB20F2 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22096E6B2BA6774A00FB20F2 /* CategoryHome.swift */; };
+		22096E6E2BA67C6900FB20F2 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22096E6D2BA67C6900FB20F2 /* CategoryRow.swift */; };
+		22096E702BA67DEF00FB20F2 /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22096E6F2BA67DEF00FB20F2 /* CategoryItem.swift */; };
 		2216756B2B9DFED9000C0E9B /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216756A2B9DFED9000C0E9B /* HelloSwiftUIApp.swift */; };
 		2216756F2B9DFEDB000C0E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2216756E2B9DFEDB000C0E9B /* Assets.xcassets */; };
 		221675722B9DFEDB000C0E9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221675712B9DFEDB000C0E9B /* Preview Assets.xcassets */; };
@@ -88,6 +90,8 @@
 		22096E642BA4012F00FB20F2 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		22096E662BA4018500FB20F2 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		22096E6B2BA6774A00FB20F2 /* CategoryHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
+		22096E6D2BA67C6900FB20F2 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		22096E6F2BA67DEF00FB20F2 /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
 		221675672B9DFED9000C0E9B /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2216756A2B9DFED9000C0E9B /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
 		2216756E2B9DFEDB000C0E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -200,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				22096E6B2BA6774A00FB20F2 /* CategoryHome.swift */,
+				22096E6D2BA67C6900FB20F2 /* CategoryRow.swift */,
+				22096E6F2BA67DEF00FB20F2 /* CategoryItem.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -448,6 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22096E6E2BA67C6900FB20F2 /* CategoryRow.swift in Sources */,
 				22096E572BA4002000FB20F2 /* HexagonParameters.swift in Sources */,
 				22096E6C2BA6774A00FB20F2 /* CategoryHome.swift in Sources */,
 				22096E5A2BA4002000FB20F2 /* Badge.swift in Sources */,
@@ -456,6 +463,7 @@
 				22096E632BA4012600FB20F2 /* HikeView.swift in Sources */,
 				22096E562BA4002000FB20F2 /* RotatedBadgeSymbol.swift in Sources */,
 				2216756B2B9DFED9000C0E9B /* HelloSwiftUIApp.swift in Sources */,
+				22096E702BA67DEF00FB20F2 /* CategoryItem.swift in Sources */,
 				22096E582BA4002000FB20F2 /* BadgeSymbol.swift in Sources */,
 				22096E3C2BA355DD00FB20F2 /* FavoriteButton.swift in Sources */,
 				22A435A92B9FFA8800F026DF /* Landmark.swift in Sources */,
