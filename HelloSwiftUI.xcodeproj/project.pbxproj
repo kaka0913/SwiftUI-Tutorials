@@ -26,6 +26,7 @@
 		22096E632BA4012600FB20F2 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22096E5F2BA4012600FB20F2 /* HikeView.swift */; };
 		22096E652BA4012F00FB20F2 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 22096E642BA4012F00FB20F2 /* hikeData.json */; };
 		22096E672BA4018500FB20F2 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22096E662BA4018500FB20F2 /* Hike.swift */; };
+		22096E6C2BA6774A00FB20F2 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22096E6B2BA6774A00FB20F2 /* CategoryHome.swift */; };
 		2216756B2B9DFED9000C0E9B /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216756A2B9DFED9000C0E9B /* HelloSwiftUIApp.swift */; };
 		2216756F2B9DFEDB000C0E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2216756E2B9DFEDB000C0E9B /* Assets.xcassets */; };
 		221675722B9DFEDB000C0E9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221675712B9DFEDB000C0E9B /* Preview Assets.xcassets */; };
@@ -86,6 +87,7 @@
 		22096E5F2BA4012600FB20F2 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		22096E642BA4012F00FB20F2 /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
 		22096E662BA4018500FB20F2 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		22096E6B2BA6774A00FB20F2 /* CategoryHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		221675672B9DFED9000C0E9B /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2216756A2B9DFED9000C0E9B /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
 		2216756E2B9DFEDB000C0E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 		22096E2D2BA355DC00FB20F2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				22096E6A2BA6774A00FB20F2 /* Categories */,
 				22096E5B2BA4012600FB20F2 /* Hikes */,
 				22096E502BA4002000FB20F2 /* Badges */,
 				22096E2E2BA355DC00FB20F2 /* Landmarks */,
@@ -191,6 +194,14 @@
 				22096E5F2BA4012600FB20F2 /* HikeView.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		22096E6A2BA6774A00FB20F2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				22096E6B2BA6774A00FB20F2 /* CategoryHome.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		2216755E2B9DFED9000C0E9B = {
@@ -438,6 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22096E572BA4002000FB20F2 /* HexagonParameters.swift in Sources */,
+				22096E6C2BA6774A00FB20F2 /* CategoryHome.swift in Sources */,
 				22096E5A2BA4002000FB20F2 /* Badge.swift in Sources */,
 				22096E3A2BA355DD00FB20F2 /* MapView.swift in Sources */,
 				22096E3B2BA355DD00FB20F2 /* CircleImage.swift in Sources */,
