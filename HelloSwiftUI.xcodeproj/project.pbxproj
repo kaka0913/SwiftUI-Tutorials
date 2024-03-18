@@ -40,6 +40,7 @@
 		22096E862BA6F32D00FB20F2 /* turtlerock_feature@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22096E852BA6F32D00FB20F2 /* turtlerock_feature@2x.jpg */; };
 		22096E8A2BA74FBD00FB20F2 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22096E892BA74FBD00FB20F2 /* FeatureCard.swift */; };
 		22096E8C2BA74FE400FB20F2 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22096E8B2BA74FE400FB20F2 /* PageView.swift */; };
+		22096E8E2BA8274B00FB20F2 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22096E8D2BA8274B00FB20F2 /* PageControl.swift */; };
 		2216756B2B9DFED9000C0E9B /* HelloSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2216756A2B9DFED9000C0E9B /* HelloSwiftUIApp.swift */; };
 		2216756F2B9DFEDB000C0E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2216756E2B9DFEDB000C0E9B /* Assets.xcassets */; };
 		221675722B9DFEDB000C0E9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 221675712B9DFEDB000C0E9B /* Preview Assets.xcassets */; };
@@ -114,6 +115,7 @@
 		22096E852BA6F32D00FB20F2 /* turtlerock_feature@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "turtlerock_feature@2x.jpg"; sourceTree = "<group>"; };
 		22096E892BA74FBD00FB20F2 /* FeatureCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeatureCard.swift; path = HelloSwiftUI/Views/FeatureCard.swift; sourceTree = SOURCE_ROOT; };
 		22096E8B2BA74FE400FB20F2 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		22096E8D2BA8274B00FB20F2 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		221675672B9DFED9000C0E9B /* HelloSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2216756A2B9DFED9000C0E9B /* HelloSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSwiftUIApp.swift; sourceTree = "<group>"; };
 		2216756E2B9DFEDB000C0E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				22096E892BA74FBD00FB20F2 /* FeatureCard.swift */,
 				22096E7F2BA6EAD800FB20F2 /* PageViewController.swift */,
 				22096E8B2BA74FE400FB20F2 /* PageView.swift */,
+				22096E8D2BA8274B00FB20F2 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -516,6 +519,7 @@
 				22096E632BA4012600FB20F2 /* HikeView.swift in Sources */,
 				22096E562BA4002000FB20F2 /* RotatedBadgeSymbol.swift in Sources */,
 				22096E8A2BA74FBD00FB20F2 /* FeatureCard.swift in Sources */,
+				22096E8E2BA8274B00FB20F2 /* PageControl.swift in Sources */,
 				2216756B2B9DFED9000C0E9B /* HelloSwiftUIApp.swift in Sources */,
 				22096E702BA67DEF00FB20F2 /* CategoryItem.swift in Sources */,
 				22096E582BA4002000FB20F2 /* BadgeSymbol.swift in Sources */,
