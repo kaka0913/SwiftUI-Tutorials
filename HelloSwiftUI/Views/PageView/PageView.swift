@@ -7,12 +7,19 @@
 
 import SwiftUI
 
-struct PageView: View {
+struct PageView<Page: View>: View {
+    var pages: [Page]
+    @State private var currentPage = 0
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            PageViewController(pages: pages, currentPage: $currentPage)
+            Text("Current Page: \(currentPage)")
+        }
+        .aspectRatio(3 / 2, contentMode: .fit)
     }
 }
 
 #Preview {
-    PageView()
+    PageView(pages: ModelData().features.map { FeatureCard(landmark: $0) })
 }
